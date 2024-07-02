@@ -13,4 +13,4 @@ if __name__ == '__main__':
     routes.app.run(debug=True)
 
 home_tag = Tag(name="Documentação", description="Seleção de documentação: Swagger, Redoc ou RapiDoc")
-book_tag = Tag(name="Alimento", description="Adição, visualização e remoção dos alimento da base")
+food_tag = Tag(name="Alimento", description="Adição, visualização e remoção dos alimento da base")

@@ -18,21 +18,21 @@ except mysql.connector.Error as err:
 # criando o banco para sermos felizes
 cursor = connector.cursor()
 
-cursor.execute("DROP DATABASE IF EXISTS food;")
+cursor.execute("DROP DATABASE IF EXISTS calculator;")
 
-cursor.execute("CREATE DATABASE food;")
+cursor.execute("CREATE DATABASE calculator;")
 
-cursor.execute("USE food;")
+cursor.execute("USE calculator;")
 
 # criando tabelas
 TABLES = {}
-TABLES['Food'] = ('''
-    CREATE TABLE food (
+TABLES['Foods'] = ('''
+    CREATE TABLE foods (
     id int NOT NULL AUTO_INCREMENT,
-    image varchar(50) NOT NULL,
+    image varchar(150) NOT NULL,
     name varchar(50) NOT NULL,
-    calories varchar(50) NOT NULL,
-    quantity varchar(50) NOT NULL,
+    calories float NOT NULL,
+    quantity int NOT NULL,
     PRIMARY KEY (id)
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;''')
 
