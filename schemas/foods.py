@@ -27,15 +27,14 @@ class FoodDeleteSchema(BaseModel):
     """
     name: str = "Pizza"
 
-# class TotalFoodViewSchema(BaseModel):
-#     total: float = 10000.0
-#
-#
-# def total_calories(food_total: Foods):
-#     """ Retorna uma representação do total de calorias seguindo o schema definido em
-#         TotalFoodViewSchema.
-#     """
-#     return {food_total}
+
+class FoodUpdateSchema(BaseModel):
+    id: int = 1
+    quantity: int = 3
+
+
+class CaloriesSchema(BaseModel):
+    total: float = 1234.6
 
 
 def show_foods(foodList: List[Foods]):
@@ -54,3 +53,7 @@ def show_foods(foodList: List[Foods]):
         })
 
     return {"foods": result}
+
+
+def show_total(total):
+    return {"total": total}

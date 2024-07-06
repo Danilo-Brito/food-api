@@ -2,7 +2,7 @@ from flask import redirect
 from food import app, db, home_tag, food_tag
 from models.models import Foods
 from schemas import FoodsSchema, ErrorSchema, show_foods
-from schemas.foods import FoodViewSchema, FoodDeleteSchema
+from schemas.foods import FoodViewSchema, FoodDeleteSchema, CaloriesSchema, show_total, FoodUpdateSchema
 from sqlalchemy.exc import IntegrityError
 from urllib.parse import unquote
 
@@ -68,3 +68,39 @@ def delete(query: FoodDeleteSchema):
     else:
         error_msg = "Alimento não encontrado"
         return {"message": error_msg}, 404
+
+
+@app.put('/update', tags=[food_tag], responses={"200": FoodsSchema, "404": ErrorSchema})
+def update(form: FoodUpdateSchema):
+    """
+    Adiciona a nova quantidade no banco de dados.
+    """
+
+    food_update = db.session.query(Foods).filter(Foods.id == form.id)
+    food_update.update(
+        {
+            "quantity": form.quantity
+        }
+    )
+    db.session.commit()
+    if food_update:
+        return {"message": "Alimento atualizado"}, 200
+    else:
+        error_msg = "Alimento não encontrado"
+        return {"message": error_msg}, 404
+
+
+@app.get('/calories', tags=[food_tag], responses={"200": CaloriesSchema, "404": ErrorSchema})
+def calories():
+    """
+    Busca e retorna o total de calorias
+    """
+    foods = db.session.query(Foods).all()
+    total = 0.0
+
+    for item in foods:
+        result = item.quantity * item.calories
+        total += result
+
+    format_num = "{:.2f}".format(total)
+    return show_total(format_num), 200

@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6a45171-c519-4f11-8b28-50b9c1741872" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas/error.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas/foods.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food.py" beforeDir="false" afterPath="$PROJECT_DIR$/food.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/routes/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/foods.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/foods.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +31,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.database.executor": "Run",
-    "Python.food.executor": "Run",
+    "Python.food.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/danilo.brito/Projects/PUC/MVP - Sprint 2/food-api/schemas"
+    "last_opened_file_path": "/Users/danilo.brito/Projects/PUC/MVP - Sprint 2/food-api/schemas",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -119,20 +113,15 @@
     </task>
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/routes/routes.py</url>
-          <line>64</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/routes/routes.py</url>
-          <line>63</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
