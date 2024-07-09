@@ -4,4 +4,4 @@
 python database/database.py
 
 # Start the Flask application
-flask run --host=0.0.0.0 --port=5000
+flask run --host=172.25.0.2 --port=5000
