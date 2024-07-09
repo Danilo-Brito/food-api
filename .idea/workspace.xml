@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6a45171-c519-4f11-8b28-50b9c1741872" name="Changes" comment="">
+    <list default="true" id="f6a45171-c519-4f11-8b28-50b9c1741872" name="Changes" comment="docker file">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entrypoint.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food.py" beforeDir="false" afterPath="$PROJECT_DIR$/food.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/routes/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/foods.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/foods.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,20 +38,25 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.database.executor": "Run",
-    "Python.food.executor": "Debug",
+    "Python.food.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/danilo.brito/Projects/PUC/MVP - Sprint 2/food-api/schemas",
+    "last_opened_file_path": "/Users/danilo.brito/Projects/PUC/MVP - Sprint 2/food-api",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "TEXT"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/schemas" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/schemas" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.food">
+  <component name="RunManager" selected="Python.database">
     <configuration name="database" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="food-api" />
       <option name="ENV_FILES" value="" />
@@ -89,6 +101,12 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.database" />
@@ -111,6 +129,15 @@
       <option name="presentableId" value="Default" />
       <updated>1719780747985</updated>
     </task>
+    <task id="LOCAL-00001" summary="docker file">
+      <option name="closed" value="true" />
+      <created>1720377195567</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720377195567</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,5 +150,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="docker file" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker file" />
   </component>
 </project>

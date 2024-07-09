@@ -1,8 +1,8 @@
 from flask import redirect
-from food import app, db, home_tag, food_tag
+from app import app, db, home_tag, food_tag
 from models.models import Foods
 from schemas import FoodsSchema, ErrorSchema, show_foods
-from schemas.foods import FoodViewSchema, FoodDeleteSchema, CaloriesSchema, show_total, FoodUpdateSchema
+from schemas.foods import FoodViewSchema, FoodDeleteSchema, CaloriesSchema, FoodUpdateSchema, show_total
 from sqlalchemy.exc import IntegrityError
 from urllib.parse import unquote
 
