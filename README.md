@@ -62,7 +62,7 @@ Execute **como administrador** o seguinte comando para construir a imagem Docker
 $ docker-compose up --build
 ```
 
-Uma vez executando, para acessar a API, basta abrir o [http://localhost:5000/#/](http://localhost:5000/#/) no navegador.
+Uma vez executando, para acessar a API, basta abrir o [http://localhost:5001/openapi/](http://localhost:5001/openapi/) no navegador.
 ---
 <!-- CONTACT -->
 
