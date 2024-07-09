@@ -12,8 +12,6 @@
 
 ## Sobre o Projeto
 
----
-
 [![Product Name Screen Shot][product-screenshot]](http://127.0.0.1:5000/openapi/swagger)
 
 Este projeto tem como objetivo ajudar a listar os livros comprados cadastrando eles plataforma.
