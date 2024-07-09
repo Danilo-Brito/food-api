@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="resources/book.png" alt="Logo" width="80" height="80">
+    <img src="resources/lojinha.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Minha Biblioteca - API</h3>
@@ -61,13 +61,7 @@ Navegue até o diretório que contém o Dockerfile e o requirements.txt no termi
 Execute **como administrador** o seguinte comando para construir a imagem Docker:
 
 ```
-$ docker build -t food-api .
-```
-
-Uma vez criada a imagem, para executar o container basta executar, **como administrador**, seguinte o comando:
-
-```
-$ docker run -p 5001:5000 food-api
+$ docker-compose up --build
 ```
 
 Uma vez executando, para acessar a API, basta abrir o [http://localhost:5000/#/](http://localhost:5000/#/) no navegador.
@@ -80,6 +74,6 @@ Danilo Brito - danilomelo.brito19@gmail.com
 
 Project Link: https://github.com/Danilo-Brito/library-api
 
-[product-screenshot]: resources/bd.png
+[product-screenshot]: resources/bg.png
 
 [ex]: resources/ex.png
