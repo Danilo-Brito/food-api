@@ -4,17 +4,17 @@
     <img src="resources/lojinha.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Minha Biblioteca - API</h3>
+<h3 align="center">Calculadora de Calorias - API</h3>
 
   <p align="center">
-   Projeto MVP - Sprint: Desenvolvimento Full Stack Básico
+   Projeto MVP - Sprint: Arquitetura de Software
 </div>
 
 ## Sobre o Projeto
 
 [![Product Name Screen Shot][product-screenshot]](http://127.0.0.1:5000/openapi/swagger)
 
-Este projeto tem como objetivo ajudar a listar os livros comprados cadastrando eles plataforma.
+Este projeto tem como objetivo consultar os alimentos em uma api externa e fazer a adição e calculos das calorias dos alimentos selecionados
 
 Nesta API você ira conseguir fazer as seguintes ações:
 
